@@ -1,0 +1,79 @@
+/* 게시판 글쓰기 */
+#select-boardType {
+    height: 25px;
+}
+
+#txt-title {
+    width: 700px;
+    height: 20px;
+}
+
+#txt-password {
+    width: 200px;
+    height: 20px;
+}
+
+.form-text {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type="radio"]     { /*속성값으로 지정할때 input사용*/
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#text-content {
+    width: 768px;
+    height: 300px;
+}
+
+
+.btn-area {
+    border-top: 1px solid #000000;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center; /*버튼 중앙정력. block요소 안에 있는 inline요소를 정렬.*/
+}                       /*button: inline-block*/
+
+.btn {
+    width: 65px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-gray {
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.btn-gray:hover {
+    background-color: #d9d9d9;
+}
+
+.btn-red {
+    border: 1px solid #880000;
+    background-color: #ff7a7a;
+}
+
+.btn-red:hover {
+    background-color: #f82222;
+}
+
+
+
+
+
+
+
+.form-group {
+    padding: 5px 0px 5px 0px;
+}

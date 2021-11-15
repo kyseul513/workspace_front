@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+/* 공통 */
+* 전체 공통 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕", 돋음, 굴림;
+    font-size: 12px;
+}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+
+
+ul, ol {list-style-type: none;}
+
+
+.f-xl {font-size: 20px;}
+.f-l {font-size:16px;}
+.f-s {font-size:10px;}
+.b {font-weight: bold;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+
+.form-group {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+
+.form-text {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type="radio"] {
+    margin: 0px 10px 0px 0px;
+}
+
+
+
+/* 버튼 디자인 */
+.btn-file {
+    width: 80px;
+}
+
+.btn-submit, .btn-reset {
+    width: 70px;
+    padding: 5px 0px 5px 0px;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+
+/* 박스 디자인 */
+#address {
+    width: 400px;
+    margin: 4px 0px 4px 84px;
+}
+
+
+
+/* 자기소개 텍스트 상자 설정 */
+.introduce {
+    float: left;
+}
+
+.group-textarea {
+    float: left;
+    width: 400px;
+    height: 100px;
+}

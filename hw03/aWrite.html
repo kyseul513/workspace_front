@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>  Homepage</title>
+        <link rel="stylesheet"  href="./mysite.css">
+        <link rel="stylesheet"  href="./aWrite.css">
+       
+    </head>
+    
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+    
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+            </div>
+    
+            <!-- contents -->
+            <div id="contents2" class="clearfix">
+                <!-- aside -->
+                <div id="aside">
+                    <h2>게시판</h2>
+
+                    <ul>
+                        <li>일반 게시판</li>    
+                        <li>댓글 게시판</li>    
+                        <li>첨부 게시판</li>    
+                    </ul>
+                </div>
+                <!-- /aside -->
+                
+                <!-- main -->
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                      
+                        <ul class="clearfix">
+                           <li>홈</li>
+                           <li>게시판</li>
+                           <li class="last">일반게시판</li>
+                        </ul>
+                   
+                    </div>
+                    
+                    <div id="awrite">
+                        <div class="form-group">
+                            <label for="txt-id" class="form-text">아이디</label>
+                            <input type="text" placeholder="아이디를 입력하세요" id="txt-id" name="" value="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txt-pw" class="form-text">비밀번호</label>
+                            <input type="password" placeholder="패스워드를 입력하세요" id="txt-pw" name="" value="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txt-name" class="form-text">이름</label>
+                            <input type="text" placeholder="이름을 입력하세요" id="txt-name" name="" value="">
+                        </div>
+        
+                        <div class="form-group">
+                            <span class="form-text">프로필사진</span>
+                            <button type="button" id="btn-file">파일 선택</button>
+                            선택된 파일 없음
+                        </div>
+
+                        <div class="form-group">
+                            <span class="form-text">주소</span>
+                            <input type="text" id="post" name="" placeholder="우편번호">
+                            <button type="button" id="btn-post">우편번호찾기</button>
+                            <br>
+                            <input type="text" id="address" name="" placeholder="주소">
+                        </div>
+
+
+                        <div class="form-group">
+                            <span class="form-text">이동통신사</span>
+                            <select>
+                                <option value="">선택해주세요</option>
+                                <option value="sk">SKT</option>
+                                <option value="kt">KT</option>
+                                <option value="lg">LGU</option>
+                            </select>            
+                        </div>
+
+                        <div class="form-group">
+                            <span class="form-text">나이</span>
+
+                            <label for="10">10대</label>
+                            <input type="radio" id="10" name="rdo-scope">
+
+                            <label for="20">20대</label>
+                            <input type="radio" id="20" name="rdo-scope">
+
+                            <label for="30">30대</label>
+                            <input type="radio" id="30" name="rdo-scope">
+
+                            <label for="40">40대</label>
+                            <input type="radio" id="40" name="rdo-scope">
+
+                            <label for="etc">기타</label>
+                            <input type="radio" id="etc" name="rdo-scope">
+                        </div>
+
+                        <div class="form-group">
+                            <span class="form-text">취미</span>
+
+                            <label for="chk-book">독서</label>
+                            <input type="checkbox" id="chk-book" name="check-book">
+                            
+                            <label for="chk-music">음악</label>
+                            <input type="checkbox" id="chk-music" name="check-music">
+
+                            <label for="chk-travel">여행</label>
+                            <input type="checkbox" id="chk-travel" name="check-travel">
+
+                            <label for="chk-movie">영화</label>
+                            <input type="checkbox" id="chk-movie" name="check-movie">
+
+                            <label for="chk-coding">코딩</label>
+                            <input type="checkbox" id="chk-coding" name="check-coding">
+
+                            <label for="chk-etc">기타</label>
+                            <input type="checkbox" id="chk-etc" name="check-etc">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <span class="form-text introduce">자기소개</span>
+                            <textarea class="group-textarea"></textarea>
+                        </div>
+
+                        <div class="bottom">
+                            <button type="submit" class="btn-submit">등 록</button>
+                            <button type="reset" class="btn-reset">초기화</button>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <!-- /main -->
+            </div>
+            <!-- /contents -->
+
+    
+            <div id="footer">
+                Copyright (c) 2021 강예슬. All right reserved
+            </div>
+
+        </div>
+
+
+        
+
+    </body>
+
+</html>

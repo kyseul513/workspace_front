@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <style>
+            div {
+                width: 130px;
+                height: 30px;
+                padding: 5px 0px 5px 0px;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: 500;
+                text-align: center;
+                cursor: pointer;                /*손모양 포인터*/
+            }
+
+            .gray {
+                background-color: #DDDDDD;
+                border: 2px solid #64616170;
+            }
+
+            .gray:hover {
+                background-color: #ffffff;
+                border: 3px solid  #000000;
+            }
+
+            .red {
+                background-color: #ee9e9e;
+                border: 2px solid #eb3c3c;
+            }
+
+            .red:hover {
+                background-color: #ffa2f0e0;
+                border: 3px solid  #000000;
+            }
+
+            .blue {
+                background-color: #7295e0;
+                border: 2px solid #0b46c4;
+            }
+
+            .blue:hover{
+                background-color: #15cec5;
+                border: 3px solid  #000000;
+            }
+
+            .btn-login {
+                display: inline-block;              /*태그는 인라인태그. 이때는 성격을 바꿔버려야 가로세로 조절이 가능*/
+                width: 130px;
+                height: 30px;
+                border-radius: 10px;
+                background-color: #ce4015;
+                border: 3px solid  #000000;
+                text-align: center;
+                padding: 5px 0px 5px 0px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+            <div class="gray">
+                저장버튼
+            </div>
+
+            <div class="red">
+                삭제버튼
+            </div>
+
+            <div class="blue">
+                수정버튼
+            </div>
+
+            <a class="btn-login" href="">
+                로그인
+            </a>             
+
+    </body>
+
+</html>
